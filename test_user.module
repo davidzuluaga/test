@@ -1,0 +1,12 @@
+<?php
+
+function basic_module_theme() {
+  $themes = array();
+
+  $themes['basic_module_data_index'] = array(
+    'template' => 'basic-module-data-index',
+    'variables' => array('data' => NULL));
+
+  return $themes;
+  
+}

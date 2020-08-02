@@ -1,0 +1,29 @@
+<?php
+
+/*
+ * @file
+ * Schema definition to install tables for basic_module
+ */
+define('TEST_USER', 'myusers');
+define('TEST_LOG', 'access_log');
+
+function test_user_schema() {
+  $schema = [];
+  $schema[TEST_USER] = array(
+    'description' => 'Registro de Usuario',
+    'fields' => array(
+      'id' => array(
+        'type' => 'serial',
+        'not null' => TRUE),
+      'name' => array(
+        'type' => 'varchar',
+        'length' => 100,
+        'not null' => TRUE,
+        'default' => ''),
+      ),
+    'indexes' => array(
+      'fx_id' => array('id')),
+    'primary key' => array('id'));
+
+  return $schema;
+}

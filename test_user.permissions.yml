@@ -1,0 +1,8 @@
+register serempre user:
+    title: 'Register Serempre User'
+list serempre user:
+    title: 'List Serempre Users'
+export serempre user:
+    title: 'Export Serempre Users'
+import serempre user:
+    title: 'Import Serempre Users'

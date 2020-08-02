@@ -1,0 +1,5 @@
+test_user.registration_form:
+    title: 'Registro Usuario'
+    description: 'registro de usuarios'
+    route_name: test_user.form_register
+    weight: 100

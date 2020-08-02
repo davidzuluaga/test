@@ -1,0 +1,4 @@
+services:
+    test_user.user:
+      class: Drupal\test_user\User\User
+      arguments: []

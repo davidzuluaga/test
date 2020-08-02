@@ -1,0 +1,6 @@
+name: Prueba serempre
+description: Módulo personalizado para la prueba tecnica de serempre
+type: module
+core_version_requirement: 8.x || 9.x
+version: 8.x-1.0
+package: serempre

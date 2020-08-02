@@ -1,0 +1,7 @@
+test_user.form_register:
+    path: '/usuario/registro'
+    defaults:
+        _form: '\Drupal\test_user\Form\UserRegistrationForm'
+        _title: 'Formulario Registro'
+    requirements:
+        _permission: 'register serempre user'
